@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+    background-image: url("IMG-20231104-WA0022.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+
+* {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.info {
+    padding: 35px;
+    max-width: 100%;
+    margin: 2em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 1em;
+}
+
+.container {
+    padding: 35px;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.info {
+    font-size: 20px;
+
+}
+
+.warning {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 45px;
+}
+
+.top-button {
+    position: absolute;
+    top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #144B53;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+}
+
+.top-button.left {
+    left: 10px;
+}
+
+.top-button.right {
+    right: 10px;
+}
+
+.top-button:hover {
+    background-color: #208291;
+}
+
+.submit {
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #144B53;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.8s ease;
+    margin: 10px;
+}
+
+.submit:hover {
+    background-color: #208291;
+}
+
+/* Style for the label associated with the checkbox */
+label {
+    display: block;
+    font-size: 18px;
+}
+
+/* Style for the checkbox */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Style for the checkbox when checked */
+input[type="checkbox"]:checked {
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    color: #fff;
+}
+
+/* Style for the checkbox label when hovered */
+label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
